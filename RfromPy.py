@@ -16,7 +16,7 @@ try:
     ri.initr()
 except RuntimeError:
     pass
-lib_path="'C:/Users/henry.brown/Documents/R/win-library/3.3'"
+lib_path="'C:/Users/WINUSER/Documents/R/win-library/3.3'"
 from rpy2.robjects import pandas2ri
 pandas2ri.activate()
 import pandas.rpy.common as common #This module will get deprecated at some point.... 
